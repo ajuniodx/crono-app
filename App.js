@@ -45,6 +45,7 @@ export default function App() {
       clearInterval(timer);
       timer = null;
     }
+    setJustTime(numberTimer);
     setNumberTimer(0);
     ss = 0;
     mm = 0;
