@@ -18,13 +18,18 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.althweb.cronoapp",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "backgroundColor": "#FFFFFF",
+        "package": "com.althweb.cronoapp",
+        "versionCode": 1
+      },
+      "package": "com.althweb.cronoapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
